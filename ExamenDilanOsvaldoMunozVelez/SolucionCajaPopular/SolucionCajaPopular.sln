@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajaPopularHidalgo", "CajaPopularHidalgo\CajaPopularHidalgo.csproj", "{53DB5C8E-628B-4265-87A1-FBDFF42152F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioCajaPopular", "ServicioCajaPopular\ServicioCajaPopular.csproj", "{4C16AE78-36E1-44B3-B214-B5E61788CF49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53DB5C8E-628B-4265-87A1-FBDFF42152F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DB5C8E-628B-4265-87A1-FBDFF42152F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DB5C8E-628B-4265-87A1-FBDFF42152F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DB5C8E-628B-4265-87A1-FBDFF42152F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C16AE78-36E1-44B3-B214-B5E61788CF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C16AE78-36E1-44B3-B214-B5E61788CF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C16AE78-36E1-44B3-B214-B5E61788CF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C16AE78-36E1-44B3-B214-B5E61788CF49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E98E85FF-EB6E-4903-9F6C-BAFB1DADD0A6}
+	EndGlobalSection
+EndGlobal

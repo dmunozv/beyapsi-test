@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CAJAPOPULARHIDALGOModelStoreContainer" CdmEntityContainer="CAJAPOPULARHIDALGOEntities">
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="CAJAPOPULARHIDALGOModel.Cliente">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ControlClientes">
+      <EntityTypeMapping TypeName="CAJAPOPULARHIDALGOModel.ControlCliente">
+        <MappingFragment StoreEntitySet="ControlCliente">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="FechaUltimoMovimiento" ColumnName="FechaUltimoMovimiento" />
+          <ScalarProperty Name="TipoUltimoMovimiento" ColumnName="TipoUltimoMovimiento" />
+          <ScalarProperty Name="SaldoAnterior" ColumnName="SaldoAnterior" />
+          <ScalarProperty Name="SaldoActual" ColumnName="SaldoActual" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Movimientos">
+      <EntityTypeMapping TypeName="CAJAPOPULARHIDALGOModel.Movimiento">
+        <MappingFragment StoreEntitySet="Movimientos">
+          <ScalarProperty Name="IdMovimiento" ColumnName="IdMovimiento" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="TipoMovimiento" ColumnName="TipoMovimiento" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="FechaOperacion" ColumnName="FechaOperacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_EditarCliente" FunctionName="CAJAPOPULARHIDALGOModel.Store.SP_EditarCliente" />
+    <FunctionImportMapping FunctionImportName="SP_EliminarCliente" FunctionName="CAJAPOPULARHIDALGOModel.Store.SP_EliminarCliente" />
+    <FunctionImportMapping FunctionImportName="SP_RegistrarCliente" FunctionName="CAJAPOPULARHIDALGOModel.Store.SP_RegistrarCliente" />
+  </EntityContainerMapping>
+</Mapping>

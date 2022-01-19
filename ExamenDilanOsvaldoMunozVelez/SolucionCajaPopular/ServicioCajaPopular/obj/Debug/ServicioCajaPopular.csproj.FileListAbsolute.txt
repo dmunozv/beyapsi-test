@@ -1,0 +1,11 @@
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\bin\ServicioCajaPopular.dll.config
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\bin\ServicioCajaPopular.dll
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\bin\ServicioCajaPopular.pdb
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\obj\Debug\ServicioCajaPopular.csproj.CoreCompileInputs.cache
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\obj\Debug\ServicioCajaPopular.dll
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\obj\Debug\ServicioCajaPopular.pdb
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\bin\EntityFramework.dll
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\bin\EntityFramework.SqlServer.dll
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\bin\EntityFramework.xml
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\bin\EntityFramework.SqlServer.xml
+C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\ServicioCajaPopular\obj\Debug\ServicioCajaPopular.csproj.CopyComplete
