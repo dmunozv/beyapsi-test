@@ -13,34 +13,34 @@ namespace ServicioCajaPopular
     [ServiceContract]
     public interface ICliente
     {
+        [OperationContract]
+        RespuestaClientes BuscarCliente(int idCliente);
 
         [OperationContract]
-        int AgregarCliente(Cliente DatosCliente, float Monto, object mensaje);
+        Response AgregarCliente(Cliente DatosCliente, float monto, object mensaje);
 
-        int ModificarCliente(Cliente DatosCliente);
+        [OperationContract]
+        Response ModificarCliente(Cliente DatosCliente);
+
+        [OperationContract]
+        Response EliminarCliente(int idCliente);
         // TODO: agregue aquí sus operaciones de servicio
     }
 
-
-    // Utilice un contrato de datos, como se ilustra en el ejemplo siguiente, para agregar tipos compuestos a las operaciones de servicio.
     [DataContract]
-    public class CompositeType
+    public class Response
     {
-        bool boolValue = true;
-        string stringValue = "Hello ";
+        [DataMember]
+        public string Respuesta { get; set; }
 
         [DataMember]
-        public bool BoolValue
-        {
-            get { return boolValue; }
-            set { boolValue = value; }
-        }
+        public int CodigoError { get; set; }
+    }
 
+    [DataContract]
+    public class RespuestaClientes : Response
+    {
         [DataMember]
-        public string StringValue
-        {
-            get { return stringValue; }
-            set { stringValue = value; }
-        }
+        public IEnumerable<Cliente> lsClientes{ get; set; }
     }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ServicioCajaPopular" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ServicioCajaPopular" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:64280/ClienteService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ServicioCajaPopular.Modelo" />
+  <xs:complexType name="RespuestaClientes">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Response">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ServicioCajaPopular.Modelo" minOccurs="0" name="lsClientes" nillable="true" type="q1:ArrayOfCliente" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RespuestaClientes" nillable="true" type="tns:RespuestaClientes" />
+  <xs:complexType name="Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodigoError" type="xs:int" />
+      <xs:element minOccurs="0" name="Respuesta" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Response" nillable="true" type="tns:Response" />
+</xs:schema>

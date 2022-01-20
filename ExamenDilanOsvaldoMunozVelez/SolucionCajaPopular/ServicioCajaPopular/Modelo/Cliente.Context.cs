@@ -68,16 +68,20 @@ namespace ServicioCajaPopular.Modelo
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("SP_EditarCliente", idClienteParameter, nombreParameter, apellidoParameter, fechaNacimientoParameter, correoParameter, telefonoParameter, fechaActualParameter, montoParameter, mensaje);
         }
     
-        public virtual int SP_EliminarCliente(Nullable<int> idCliente, ObjectParameter mensaje)
+        public virtual int SP_EliminarCliente(Nullable<int> idCliente, string mensaje)
         {
             var idClienteParameter = idCliente.HasValue ?
                 new ObjectParameter("IdCliente", idCliente) :
                 new ObjectParameter("IdCliente", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("SP_EliminarCliente", idClienteParameter, mensaje);
+            var mensajeParameter = mensaje != null ?
+                new ObjectParameter("Mensaje", mensaje) :
+                new ObjectParameter("Mensaje", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("SP_EliminarCliente", idClienteParameter, mensajeParameter);
         }
     
-        public virtual int SP_RegistrarCliente(string nombre, string apellido, Nullable<System.DateTime> fechaNacimiento, string correo, Nullable<decimal> telefono, Nullable<System.DateTime> fechaActual, Nullable<double> monto, ObjectParameter mensaje)
+        public virtual int SP_RegistrarCliente(string nombre, string apellido, Nullable<System.DateTime> fechaNacimiento, string correo, Nullable<decimal> telefono, Nullable<System.DateTime> fechaActual, Nullable<double> monto, string mensaje)
         {
             var nombreParameter = nombre != null ?
                 new ObjectParameter("Nombre", nombre) :
@@ -107,7 +111,11 @@ namespace ServicioCajaPopular.Modelo
                 new ObjectParameter("Monto", monto) :
                 new ObjectParameter("Monto", typeof(double));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("SP_RegistrarCliente", nombreParameter, apellidoParameter, fechaNacimientoParameter, correoParameter, telefonoParameter, fechaActualParameter, montoParameter, mensaje);
+            var mensajeParameter = mensaje != null ?
+                new ObjectParameter("Mensaje", mensaje) :
+                new ObjectParameter("Mensaje", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("SP_RegistrarCliente", nombreParameter, apellidoParameter, fechaNacimientoParameter, correoParameter, telefonoParameter, fechaActualParameter, montoParameter, mensajeParameter);
         }
     }
 }

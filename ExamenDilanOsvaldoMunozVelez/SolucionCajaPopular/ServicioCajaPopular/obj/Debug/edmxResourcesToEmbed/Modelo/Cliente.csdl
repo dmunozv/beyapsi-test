@@ -48,7 +48,7 @@
     </FunctionImport>
     <FunctionImport Name="SP_EliminarCliente">
       <Parameter Name="IdCliente" Mode="In" Type="Int32" />
-      <Parameter Name="Mensaje" Mode="InOut" Type="String" />
+      <Parameter Name="Mensaje" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="SP_RegistrarCliente">
       <Parameter Name="Nombre" Mode="In" Type="String" />
@@ -58,7 +58,7 @@
       <Parameter Name="Telefono" Mode="In" Type="Decimal" />
       <Parameter Name="FechaActual" Mode="In" Type="DateTime" />
       <Parameter Name="Monto" Mode="In" Type="Double" />
-      <Parameter Name="Mensaje" Mode="InOut" Type="String" />
+      <Parameter Name="Mensaje" Mode="In" Type="String" />
     </FunctionImport>
   </EntityContainer>
 </Schema>

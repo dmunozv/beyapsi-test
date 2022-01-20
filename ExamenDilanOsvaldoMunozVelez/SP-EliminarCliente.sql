@@ -1,5 +1,5 @@
 --ELIMINAR CLIENTE
-CREATE PROCEDURE SP_EliminarCliente (@IdCliente INT, @Mensaje VARCHAR(100)OUT)
+ALTER PROCEDURE SP_EliminarCliente (@IdCliente INT, @Mensaje VARCHAR(100))
 	
 AS
 	BEGIN		

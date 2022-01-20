@@ -8,3 +8,12 @@ C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopula
 C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.exe
 C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.pdb
 C:\Users\x\Documents\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.FormularioPrincipal.resources
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\bin\Debug\CajaPopularHidalgo.exe.config
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\bin\Debug\CajaPopularHidalgo.exe
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\bin\Debug\CajaPopularHidalgo.pdb
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.FormularioPrincipal.resources
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.Properties.Resources.resources
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.csproj.GenerateResource.cache
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.csproj.CoreCompileInputs.cache
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.exe
+C:\Users\x\Documents\GitHub\beyapsi-test\ExamenDilanOsvaldoMunozVelez\SolucionCajaPopular\CajaPopularHidalgo\obj\Debug\CajaPopularHidalgo.pdb
